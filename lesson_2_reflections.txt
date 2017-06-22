@@ -3,3 +3,18 @@ A new .git is being created in the current folder. The repository needs to be in
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area includes the files you are about to commit. It can containg all the files in the working directory or a part of them. The repository is a set of commits while files in the staging area are just about to become a new commit. The staging area offers an opportunity to include changes in separate files in separate commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add all the files, changes in which logically go together, to the staging area and make a commit. If you realizr that any file shouldn't be commited, you can remove it from the staging area before the commit is made.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+The situations when you would like to create a localized version of your product or when you want to add an experimental feature.
+
+How do the diagrams help you visualize the branch structure?
+They show all commits, branches and HEAD. They help you understand what branch you would like to include your next commit to and what commits contain needed changes.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is the commit containing the changes both branches include in their commit. We respresent the commit, which is the result of merge, on the diagram the way we do to show that it has two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pros of Git's automatic merging is that you don't have to do manually the comparison, which can be done automatically. This saves your time. The corn is that some merges obvious for a human cannot be automatically done by Git. Though this is a pros at the same time as this feature helps you avoid unwanted changes.
