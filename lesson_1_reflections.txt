@@ -18,4 +18,3 @@ Even if a bug appears, you can always easily find he change, which has caused it
 
 Now that you have your workspace set up, what do you want to try using Git for?
 I would like to write some code, to create several commits, to see the git log, to make a bug, find it with comparing commits and fix it.
-
